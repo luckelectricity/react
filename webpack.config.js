@@ -2,7 +2,7 @@ var webpack = require('webpack');
 
 module.exports = {
     context: __dirname,
-    entry: "./index.js",
+    entry: "./demo2/index.js",
     module: {
         loaders:[{
             test: /\.js?$/,
@@ -15,7 +15,7 @@ module.exports = {
     },
     output: {
         path: __dirname,
-        filename: "./bundle.js"
+        filename: "./demo2/bundle.js"
     }
 
 }
